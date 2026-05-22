@@ -9,13 +9,26 @@
         Styling within the header controlling nav display.
         In practice it's almost always a seperate stylesheet though. 
     -->
-    <style>
+    <style>     
+        body {
+            font-family: Arial, sans-serif;
+            color: white;
+            background-color: black;
+        }
         nav ul {
             display: flex;
             list-style: none; /* list-style attribute of none will remove the  bullet points */
             padding: 0;
             margin: 0;
             gap: 20px; /* gap attribute will add spacing between the nav ul elements */
+            
+        }
+        a {
+            color: yellow;
+            font-style:oblique;
+        }        
+        a:hover {
+            font-weight: bold;
         }
     </style>
 </head>
@@ -34,22 +47,22 @@
     <main>
         <section id="home">
             <h2>Home</h2>
-            <p>Welcome content.</p>
+            <p>In &ltmain&gt &ltsection&gt.</p>
         </section>
 
         <section id="about">
             <h2>About</h2>
-            <p>About content.</p>
+            <p>In &ltmain&gt &ltsection&gt.</p>
         </section>
 
         <section id="services">
             <h2>Services</h2>
-            <p>Services content.</p>
+            <p>In &ltmain&gt &ltsection&gt.</p>
         </section>
 
         <section id="contact">
             <h2>Contact</h2>
-            <p>Contact content.</p>
+            <p>In &ltmain&gt &ltsection&gt.</p>
         </section>
     </main>
     <footer>
